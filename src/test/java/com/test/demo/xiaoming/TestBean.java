@@ -17,6 +17,5 @@ public class TestBean {
 		
 		public void test2(){
 			System.out.println("你好ssssss");
-			System.out.println("加入一行代码");
 		}
 }
