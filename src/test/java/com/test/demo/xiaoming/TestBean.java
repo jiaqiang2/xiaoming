@@ -14,6 +14,5 @@ public class TestBean {
 			User u = (User) ac.getBean("user") ;
 			System.out.println("******name:"+u.getName());
 			System.out.println("name******:"+u.getName());
-			System.out.println("name******:"+u.getName());
 		}
 }
