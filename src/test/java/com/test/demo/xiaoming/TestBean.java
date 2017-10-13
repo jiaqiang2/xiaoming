@@ -23,6 +23,7 @@ public class TestBean {
 		
 		public void test4(){
 			System.out.println("这是test4##################");
+			System.out.println("zheshi测试bug");
 		}
 		
 		
