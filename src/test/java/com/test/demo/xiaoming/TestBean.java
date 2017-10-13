@@ -16,6 +16,6 @@ public class TestBean {
 		}
 		
 		public void test2(){
-			System.out.println("你好");
+			System.out.println("你好ssssss");
 		}
 }
