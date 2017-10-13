@@ -13,8 +13,6 @@ public class TestBean {
 		public void test1(){
 			User u = (User) ac.getBean("user") ;
 			System.out.println("names******:"+u.getName());
-			System.out.println("bug测试");
-			System.out.println("bug测试");
 		}
 		
 		public void test2(){
@@ -25,6 +23,10 @@ public class TestBean {
 		public void test3(){
 			System.out.println("测试bug");
 			System.out.println("测试bug");
+		}
+		
+		public void test4(){
+			System.out.println("这是test4");
 		}
 		
 		
