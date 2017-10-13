@@ -12,6 +12,10 @@ public class TestBean {
 		@Test
 		public void test1(){
 			User u = (User) ac.getBean("user") ;
-			System.out.println("name******:"+u.getName());
+			System.out.println("names******:"+u.getName());
+		}
+		
+		public void test2(){
+			System.out.println("这是test2");
 		}
 }
