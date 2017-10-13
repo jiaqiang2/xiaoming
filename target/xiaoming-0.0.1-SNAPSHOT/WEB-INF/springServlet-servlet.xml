@@ -30,7 +30,7 @@
     <mvc:interceptors>
         <mvc:interceptor>
             <mvc:mapping path="/test/**"/>
-            <mvc:exclude-mapping path="/aa/**"/>  
+            <mvc:exclude-mapping path="/test2/**"/>  
             <bean class="com.xiaoming.extension.MethodInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors> 
