@@ -16,14 +16,14 @@ public class TestBean {
 			System.out.println("namesqqq******:"+u.getName());
 		}
 		
-		public void test3(){
-			System.out.println("测试bug");
-			System.out.println("测试bug");
-		}
-		
-		public void test4(){
-			System.out.println("这是test4##################");
-		}
+//		public void test3(){
+//			System.out.println("测试bug");
+//			System.out.println("测试bug");
+//		}
+//		
+//		public void test4(){
+//			System.out.println("这是test4##################");
+//		}
 		
 		
 }
