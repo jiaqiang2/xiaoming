@@ -25,6 +25,26 @@
     <context:property-placeholder location="classpath:config.properties" />
     <!-- 开启支持@AspectJ风格的切面声明 -->
     <aop:aspectj-autoproxy/>
+    
+    <!-- mongodb配置 -->
+    <!-- <mongo:db-factory id="mongoDbFactory" client-uri="mongodb://${mongodb.username}:${mongodb.password}@${mongodb.servers}/${mongodb.database}?${mongodb.options}"/>
+    <mongo:repositories mongo-template-ref="mongoTemplate" base-package="com.xiaoguikuaipao.app.mongo.repository" />
+    <mongo:mapping-converter db-factory-ref="mongoDbFactory" base-package="com.xiaoguikuaipao.app.mongo.entity"/>
+    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+        <constructor-arg name="mongoDbFactory" ref="mongoDbFactory"/>
+        <constructor-arg name="mongoConverter" ref="mongoConverter"/>
+    </bean>
+    <bean id="mongoConverter" class="org.springframework.data.mongodb.core.convert.MappingMongoConverter">
+        <constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
+        <constructor-arg name="mappingContext" ref="mappingContext" />
+        <property name="typeMapper" ref="defaultMongoTypeMapper" />
+    </bean>
+    <bean id="defaultMongoTypeMapper" class="org.springframework.data.mongodb.core.convert.DefaultMongoTypeMapper">
+        <constructor-arg name="typeKey">
+            <null/>这里设置为空，可以将spring data mongodb保存时多余的_class字段去掉
+        </constructor-arg>
+    </bean>
+    <bean id="mappingContext" class="org.springframework.data.mongodb.core.mapping.MongoMappingContext" /> -->
 
     <bean id="user" class="com.xiaoming.entity.User">
     	<property name="id" value="1"></property>
